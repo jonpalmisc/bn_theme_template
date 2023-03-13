@@ -1,0 +1,98 @@
+{
+  "name": "Untitled",
+  "style": "Fusion",
+  "styleSheet": "<STYLE_CSS>",
+
+  "colors": {
+    "black": "#111111"
+  },
+
+  "palette": {
+    "Window": "black",
+    "WindowText": "black",
+    "Base": "black",
+    "AlternateBase": "black",
+    "ToolTipBase": "black",
+    "ToolTipText": "black",
+    "Text": "black",
+    "Button": "black",
+    "ButtonText": "black",
+    "BrightText": "black",
+    "Light": "black",
+    "Link": "black",
+    "Highlight": "black",
+    "HighlightedText": "black"
+  },
+
+  "disabledPalette": {
+    "Button": "black",
+    "ButtonText": "black",
+    "Text": "black",
+    "WindowText": "black"
+  },
+
+  "theme-colors": {
+    "modifiedColor": "black",
+    "insertedColor": "black",
+    "notPresentColor": "black",
+    "selectionColor": "black",
+    "outlineColor": "black",
+
+    "addressColor": "black",
+    "registerColor": "black",
+    "numberColor": "black",
+    "codeSymbolColor": "black",
+    "dataSymbolColor": "black",
+    "stackVariableColor": "black",
+    "importColor": "black",
+    "stringColor": "black",
+    "typeNameColor": "black",
+    "fieldNameColor": "black",
+    "keywordColor": "black",
+    "uncertainColor": "black",
+    "annotationColor": "black",
+    "opcodeColor": "black",
+
+    "graphBackgroundDarkColor": "black",
+    "graphBackgroundLightColor": "black",
+    "graphNodeDarkColor": "black",
+    "graphNodeLightColor": "black",
+    "graphNodeOutlineColor": "black",
+
+    "trueBranchColor": "black",
+    "falseBranchColor": "black",
+    "unconditionalBranchColor": "black",
+
+    "altTrueBranchColor": "black",
+    "altFalseBranchColor": "black",
+    "altUnconditionalBranchColor": "black",
+
+    "backgroundHighlightDarkColor": "black",
+    "backgroundHighlightLightColor": "black",
+    "boldBackgroundHighlightDarkColor": "black",
+    "boldBackgroundHighlightLightColor": "black",
+    "alphanumericHighlightColor": "black",
+    "printableHighlightColor": "black",
+    "instructionHighlightColor": "black",
+    "tokenHighlightColor": "black",
+
+    "linearDisassemblyFunctionHeaderColor": "black",
+    "linearDisassemblyBlockColor": "black",
+    "linearDisassemblyNoteColor": "black",
+    "linearDisassemblySeparatorColor": "black",
+
+    "scriptConsoleOutputColor": "black",
+    "scriptConsoleErrorColor": "black",
+    "scriptConsoleEchoColor": "black",
+
+    "blueStandardHighlightColor": "black",
+    "greenStandardHighlightColor": "black",
+    "cyanStandardHighlightColor": "black",
+    "redStandardHighlightColor": "black",
+    "magentaStandardHighlightColor": "black",
+    "yellowStandardHighlightColor": "black",
+    "orangeStandardHighlightColor": "black",
+    "whiteStandardHighlightColor": "black",
+    "blackStandardHighlightColor": "black"
+  }
+}

@@ -1,8 +1,10 @@
+THEME_NAME	?= template
+
 BN_USER_DIR	?= ~/Library/Application\ Support/Binary\ Ninja
-INSTALL_DIR	= $(BN_USER_DIR)/themes
+INSTALL_DIR	:= $(BN_USER_DIR)/themes
 BUILD_DIR	?= out
 
-THEME_T		:= $(BUILD_DIR)/remastered.bntheme
+THEME_T		:= $(BUILD_DIR)/$(THEME_NAME).bntheme
 THEME_S		:= src/theme.json
 STYLE_O		:= $(BUILD_DIR)/style.css
 STYLE_S		:= src/style.scss
@@ -12,11 +14,11 @@ all: $(THEME_T)
 
 $(THEME_T): $(THEME_S) $(STYLE_O)
 	@mkdir -p $(BUILD_DIR)
-	perl -pe "s/<STYLE_CSS>/$$(cat $(STYLE_O))/" <$(THEME_S) >$(THEME_T)
+	./tools/assemble.py $(THEME_S) $(STYLE_O) >$(THEME_T)
 
 $(STYLE_O): $(STYLE_S)
 	@mkdir -p $(BUILD_DIR)
-	sass $< | perl -pe 's/\s+/ /g' > $@
+	sass $< >$@
 
 .PHONY: install
 install: $(THEME_T)

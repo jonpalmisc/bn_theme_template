@@ -4,8 +4,6 @@ leverage custom stylesheets, preprocessed with Sass [1].
 This is for my personal use; support and/or maintenance should not be expected,
 but this repo is public as there is no reason to keep it private.
 
-See the Makefile for more details. It is expected that `perl` and `sass` are
-available on your system.
-
+See the Makefile for more details. 
 
 [1] <https://sass-lang.com>
